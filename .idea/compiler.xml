@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="a-simple-provider-user" />
         <module name="b-simple-consumer-movie" />
-        <module name="springcloudlearn" />
+        <module name="c-provider-user" />
+        <module name="d-consumer-movie" />
+        <module name="e-microservice-discovery-eureka" />
       </profile>
     </annotationProcessing>
   </component>

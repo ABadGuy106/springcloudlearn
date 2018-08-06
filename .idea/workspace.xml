@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5af9de74-88ee-42ea-bffb-dc4cc6b948f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-microservice-discovery-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/e-microservice-discovery-eureka/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="5af9de74-88ee-42ea-bffb-dc4cc6b948f3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/b-simple-consumer-movie/target/" />
@@ -57,7 +54,7 @@
           <entry key="java" value="663" />
           <entry key="properties" value="392" />
           <entry key="sql" value="72" />
-          <entry key="txt" value="80" />
+          <entry key="txt" value="86" />
           <entry key="xml" value="219" />
           <entry key="yml" value="4" />
         </counts>
@@ -65,7 +62,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="663" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="PLAIN_TEXT" value="86" />
           <entry key="Properties" value="392" />
           <entry key="SQL" value="76" />
           <entry key="XML" value="215" />
@@ -142,16 +139,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c-provider-user/src/main/java/net/abadguy/asimpleprovideruser/ASimpleProviderUserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="121">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c-provider-user/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -408,7 +405,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533544616499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533544719578" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/d-consumer-movie" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -522,7 +519,7 @@
       <workItem from="1533467779071" duration="69000" />
       <workItem from="1533467956977" duration="88000" />
       <workItem from="1533468094906" duration="7683000" />
-      <workItem from="1533521961065" duration="11322000" />
+      <workItem from="1533521961065" duration="11566000" />
     </task>
     <task id="LOCAL-00001" summary="集成mybatis实现数据库查找用户">
       <created>1533476526318</created>
@@ -552,15 +549,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533542297236</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="将服务注册到eurekaServer">
+      <created>1533544599068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533544599068</updated>
+    </task>
+    <task id="LOCAL-00006" summary="将服务注册到eurekaServer">
+      <created>1533544681471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533544681471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19710000" />
+    <option name="totallyTimeSpent" value="19954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30153596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -641,7 +651,8 @@
     <MESSAGE value="添加Lombok依赖" />
     <MESSAGE value="服务消费之调用服务提供者" />
     <MESSAGE value="springboot创建eurekaServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot创建eurekaServer" />
+    <MESSAGE value="将服务注册到eurekaServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="将服务注册到eurekaServer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/a-simple-provider-user/src/main/resources/create.sql">
@@ -884,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c-provider-user/src/main/java/net/abadguy/asimpleprovideruser/ASimpleProviderUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c-provider-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -902,6 +906,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="136" selection-start-line="8" selection-start-column="136" selection-end-line="8" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c-provider-user/src/main/java/net/abadguy/asimpleprovideruser/ASimpleProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>

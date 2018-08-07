@@ -13,8 +13,10 @@
         <module>a-simple-provider-user</module>
         <module>b-simple-consumer-movie</module>
         <module>c-provider-user</module>
+        <module>c-provider-user1</module>
         <module>d-consumer-movie</module>
         <module>e-microservice-discovery-eureka</module>
+        <module>f-consumer-movie-ribbon</module>
     </modules>
 
     <properties>

@@ -14,7 +14,7 @@ public class UserController {
 
     @RequestMapping(value = "/findById",method = RequestMethod.GET)
     public User findById(int id){
-        System.out.println("调用了user");
+        System.out.println("调用了user1");
        return userService.queryUserById(id);
 
     }

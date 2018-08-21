@@ -17,6 +17,7 @@
         <module>d-consumer-movie</module>
         <module>e-microservice-discovery-eureka</module>
         <module>f-consumer-movie-ribbon</module>
+        <module>g-consumer-movie-feign</module>
     </modules>
 
     <properties>

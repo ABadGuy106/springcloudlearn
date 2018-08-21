@@ -9,8 +9,11 @@
         <module name="a-simple-provider-user" />
         <module name="b-simple-consumer-movie" />
         <module name="c-provider-user" />
+        <module name="c-provider-user1" />
         <module name="d-consumer-movie" />
         <module name="e-microservice-discovery-eureka" />
+        <module name="f-consumer-movie-ribbon" />
+        <module name="g-consumer-movie-feign" />
       </profile>
     </annotationProcessing>
   </component>
